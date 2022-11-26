@@ -848,6 +848,11 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+#map {
+    width: 100%;
+    height: 400px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

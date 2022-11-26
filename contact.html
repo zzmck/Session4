@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/et-line.css">
 
 
-    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/blocs.js"></script>
     <script src="js/jquery.touchSwipe.js" defer></script>
@@ -34,7 +34,6 @@
 <body>
     <!-- Principal conteneur -->
     <div class="page-container">
-
         <!-- bloc-0 -->
         <div class="bloc bgc-white l-bloc " id="bloc-0">
             <div class="container bloc-sm">
@@ -113,6 +112,7 @@
                         <p>
                             contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -122,8 +122,9 @@
         <!-- ScrollToTop Button -->
         <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
         <!-- ScrollToTop Button END-->
-
-
+        <div class="map-area">
+            <div id="map"></div>
+        </div>
         <!-- Footer - bloc-8 -->
         <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
             <div class="container bloc-sm">
@@ -162,8 +163,7 @@
 
     </div>
     <!-- Principal conteneur END -->
-
-
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqz3arn3v5onFyQIMqemhT7LzuvkDUrls&callback=initMap"></script>
 </body>
 
 </html>
