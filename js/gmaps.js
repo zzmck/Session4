@@ -1,6 +1,6 @@
 function initMap() {
     const selector = document.getElementById("map")
-    const center = { lat: 48.8589466, lng: 2.2769956 }
+    const center = { lat: 45.46, lng: 4.49 }
     const options = {
         center: center,
         zoom: 8,
