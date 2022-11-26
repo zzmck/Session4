@@ -6,7 +6,8 @@ RewriteRule ^([^\.]+)$ $1.html  [L]
 
 
 #301 permanent redirect all indexhtml to acceuilhtml
-RedirectPermanent /* /acceuil.html
+DirectoryIndex acceuil.html
+
 # 301 permanent redirect all .html to non .html
 RewriteCond %{THE_REQUEST} \.html
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
