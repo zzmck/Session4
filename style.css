@@ -953,6 +953,9 @@ h4 {
         height: 410px;
         border: none;
     }
+    .contact_us {
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
