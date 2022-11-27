@@ -848,6 +848,10 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.adjust_services {
+    padding-top: 15px;
+}
+
 .call_us {
     width: 47%;
     margin-left: 18px;
