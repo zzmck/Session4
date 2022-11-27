@@ -47,7 +47,7 @@
     <!-- Principal conteneur -->
     <main class="page-container">
         <!-- bloc-0 -->
-        <header class="bloc bgc-white l-bloc " id="bloc-0">
+        <header class="bloc bgc-white l-bloc menu_fixed" id="bloc-0">
             <div class="container bloc-sm">
                 <nav class="navbar row">
                     <div class="navbar-header">
@@ -59,7 +59,19 @@
                     <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                         <ul class="site-navigation nav navbar-nav">
                             <li>
-                                <a href="acceuil#présentation">Retour à l'accueil</a>
+                                <a href="acceuil#Présentation">Présentation</a>
+                            </li>
+                            <li>
+                                <a href="acceuil#Services">Services</a>
+                            </li>
+                            <li>
+                                <a href="acceuil#Objectifs">Objectifs</a>
+                            </li>
+                            <li>
+                                <a href="acceuil#Portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="contact#NousTrouver">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -69,65 +81,82 @@
         <!-- bloc-0 END -->
 
         <!-- bloc-6 -->
-        <section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="NousTrouver">
+        <section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax submenu" id="Accueil">
             <div class="container bloc-lg">
-                <div class="row">
+                <div class="row tight-width-whitespace">
                     <div class="col-sm-12">
-                        <h1 class="text-center hero-bloc-text tc-white">
-                            Parlons web design !
+                        <img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Agence La Panthère, agence web paris, création logo paris">
+                        <h1 class="text-center hero-bloc-text tc-white ">
+                            Agence La Panthère
                         </h1>
-                        <p class="text-center mg-lg tc-white tight-width-whitespace">
-                            Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br> Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-                        </p>
+                        <h2>Parlons web design !</h2>
+                        <div class="text-center">
+                            <p class="text-center mg-lg tc-white tight-width-whitespace">
+                                Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br> Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- bloc-6 END -->
 
         <!-- bloc-7 -->
         <section class="bloc bgc-white l-bloc" id="Formulaire">
+            <h2 class="footer_contact_us">Nous contacter</h2>
             <div class="container bloc-lg">
+
                 <div class="row">
                     <div class="col-sm-6">
+                        <h3 class="text-center">Remplissez le formulaire</h3>
                         <form id="form_1">
                             <!--novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"-->
                             <div class="form-group">
                                 <label>
 							Nom
-						</label>
+						    </label>
                                 <input id="name" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>
 							Adresse email
-						</label>
+						    </label>
                                 <input id="email" class="form-control" type="email" required>
                             </div>
                             <div class="form-group">
                                 <label>
 							Comment nous avez-vous connu ?
-						</label>
+						    </label>
                                 <input id="input_504" class="form-control" type="text" required>
                             </div>
                             <div class="form-group">
                                 <label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						    </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+						    Envoyer
+					        </button>
                         </form>
+
                     </div>
-                    <div class="col-sm-6" id="Adresse">
-                        <p>
-                            contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-                        </p>
-                        <div class="map-area">
-                            <div id="map"></div>
-                        </div>
+
+                    <div class="col-sm-6 call_us">
+                        <h3 class="text-center">Appelez-nous</h3>
+                        <p class="call_us_number">04 34 56 76 43</p>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 footer_find_us" id="Adresse">
+                <h2>Trouver notre agence</h2>
+                <p>
+                    2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+                </p>
+                <div class="map-area">
+                    <div id="map"></div>
                 </div>
             </div>
         </section>
