@@ -15,12 +15,14 @@
     envie de cliquer sur le lien">
     <meta property="og:title" content="La meilleure agence de WebDesign sur lyon">
     <meta property="og:url" content="https://zzmck.github.io/Session4/acceuil">
+    <meta property="og:type" content="Je ne sais pas quoi mettre">
     <!-- META twitter twitter:card, twitter:site, twitter:title, twitter:description, and twitter:image. -->
     <meta name="twitter:title" content="La meilleure agence de WebDesign sur lyon.">
     <meta name="twitter:site" content="https://zzmck.github.io/Session4/acceuil">
     <meta name="twitter:description" content="La description qui déchire avec une bonne explication qui donne
     envie de cliquer sur le lien">
     <meta name="twitter:image" content="https://zzmck.github.io/Session4/img/logo.png">
+    <meta name="twitter:twitter:image:alt" content="La panthère meilleure agence de web design">
     <meta name="twitter:card" content="https://zzmck.github.io/Session4/img/logo.png">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -129,27 +131,20 @@
                         <form id="form_1">
                             <!--novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"-->
                             <div class="form-group">
-                                <label>
-							Nom
-						    </label>
-                                <input id="name" class="form-control" required>
+                                <label for="name">Nom</label>
+                                <input type="text" id="name" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-							Adresse email
-						    </label>
-                                <input id="email" class="form-control" type="email" required>
+                                <label for="email">Adresse email</label>
+                                <input type="email" id="email" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-							Comment nous avez-vous connu ?
-						    </label>
-                                <input id="input_504" class="form-control" type="text" required>
+                                <label for="reference">Comment nous avez-vous connu ?</label>
+                                <input type="text" id="reference" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						    </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                                <label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+                                <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						    Envoyer
