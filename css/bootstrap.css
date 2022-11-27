@@ -158,6 +158,14 @@ html input[type=button],
 input[type=reset],
 input[type=submit] {
     -webkit-appearance: button;
+    -moz-appearance: button;
+    /* Mozilla */
+    -o-appearance: button;
+    /* Opera */
+    -ms-appearance: button;
+    /* Internet Explorer */
+    appearance: button;
+    /* CSS3 */
     cursor: pointer
 }
 
@@ -193,12 +201,28 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    /* Mozilla */
+    -o-appearance: textfield;
+    /* Opera */
+    -ms-appearance: textfield;
+    /* Internet Explorer */
+    appearance: textfield;
+    /* CSS3 */
 }
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Mozilla */
+    -o-appearance: none;
+    /* Opera */
+    -ms-appearance: none;
+    /* Internet Explorer */
+    appearance: none;
+    /* CSS3 */
 }
 
 fieldset {
@@ -3194,7 +3218,15 @@ textarea.form-control {
 }
 
 input[type=search] {
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Mozilla */
+    -o-appearance: none;
+    /* Opera */
+    -ms-appearance: none;
+    /* Internet Explorer */
+    appearance: none;
+    /* CSS3 */
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -7059,6 +7091,14 @@ button.list-group-item-danger.active:hover {
 
 button.close {
     -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Mozilla */
+    -o-appearance: none;
+    /* Opera */
+    -ms-appearance: none;
+    /* Internet Explorer */
+    appearance: none;
+    /* CSS3 */
     padding: 0;
     cursor: pointer;
     background: 0 0;
@@ -7684,7 +7724,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: '#000\9';
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
