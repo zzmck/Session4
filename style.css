@@ -1,3 +1,23 @@
+@font-face {
+    font-family: fontawesome-webfont;
+    src: url(fonts/fontawesome-webfont.eot);
+    src: url(fonts/fontawesome-webfont.woff) format('woff'), url(fonts/fontawesome-webfont.ttf) format('truetype'), url(fonts/fontawesome-webfont.svg) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display : swap;
+}
+@font-face {
+    font-family: et-line;
+    src: url(fonts/et-line.eot);
+    src: url(fonts/et-line.eot?#iefix) format('embedded-opentype'), url(fonts/et-line.woff) format('woff'), url(fonts/et-line.ttf) format('truetype'), url(fonts/et-line.svg#et-line) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display : swap;
+}
+*{
+font-family : 'et-line', serif;
+}
+
 body {
     margin: 0;
     padding: 0;
