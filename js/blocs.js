@@ -128,7 +128,7 @@ function setUpVisibilityToggle() {
         }
     })
 }
-
+/*
 function setUpLightBox() {
     window.targetLightbox, $(document).on("click", "[data-lightbox]", function(t) {
         t.preventDefault(), targetLightbox = $(this);
@@ -158,7 +158,7 @@ function setUpLightBox() {
         targetLightbox = a, $(".next-lightbox, .prev-lightbox").hide(), "no-gallery-set" == e ? ($("a[data-lightbox]").index(a) != $("a[data-lightbox]").length - 1 && $(".next-lightbox").show(), $("a[data-lightbox]").index(a) > 0 && $(".prev-lightbox").show()) : ($('a[data-gallery-id="' + e + '"]').index(a) != $('a[data-gallery-id="' + e + '"]').length - 1 && $(".next-lightbox").show(), $('a[data-gallery-id="' + e + '"]').index(a) > 0 && $(".prev-lightbox").show())
     })
 }
-
+*/
 function addSwipeSupport() {
     $(".carousel-inner").length && $(".carousel-inner").swipe({
         swipeLeft: function(t, e, i, a, o) {
@@ -176,7 +176,7 @@ function addKeyBoardSupport() {
         37 == t.which ? $(".prev-lightbox").is(":visible") && $(".prev-lightbox").click() : 39 == t.which && $(".next-lightbox").is(":visible") && $(".next-lightbox").click()
     })
 }
-
+/*
 function addLightBoxSwipeSupport() {
     $("#lightbox-image").length && $("#lightbox-image").swipe({
         swipeLeft: function(t, e, i, a, o) {
@@ -194,10 +194,10 @@ $(document).ready(function() {
             scrollTop: $("#scroll-hero").closest(".bloc").height()
         }, "slow")
     }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
-}), $(window).load(function() {
+}), $(function() {
     setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
 }).resize(function() {
     setFillScreenBlocHeight()
 }), $(function() {
     $('[data-toggle="tooltip"]').tooltip()
-});
+});*/
