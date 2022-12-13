@@ -1060,3 +1060,11 @@ h4 {
         text-align: center;
     }
 }
+#btn-back-to-top {
+    position: fixed;
+    background-color: #F3976C;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 999;
+  }
