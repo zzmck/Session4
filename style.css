@@ -1068,3 +1068,57 @@ h4 {
     display: none;
     z-index: 999;
   }
+  .nav-item {
+    background-color: white;
+}
+
+.nav-item:hover {
+    background-color: #F3976C;
+}
+
+.nav-link.active {
+    background-color: #F3976C;
+}
+a.active {
+    background-color: #F3976C;
+}
+
+.icon-md {
+    color: rgb(0, 0, 0);
+}
+
+.icon-md:hover {
+    color: #575757;
+}
+
+.couleur-primaire {
+    color: black;
+    background-color: #F3976C
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #F3976C;
+}
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+background-color: #F3976C;
+}
+.img-size{
+    height:300px;
+    width:300px;
+}
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: #575757!important;
+}
+.btn-atomic-tangerine {
+    background: #F3976C!important;
+    color: #000000!important;
+}
+
+.nav-item:active{
+    background: #F3976C!important;
+    color: #000000!important;
+    font-style: bold;
+}
