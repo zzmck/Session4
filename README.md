@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://user.oc-static.com/upload/2022/02/16/16450043954887_cover%20small.png">
 </p>
+
 ## Objectifs
 
   - [x] Analyse de l’état actuel de SEO du site fourni
