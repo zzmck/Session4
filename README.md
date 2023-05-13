@@ -1,7 +1,4 @@
-#### Session4
-Panthère webdesign Lyon
-
-## Dynamisez une page web avec des animations CSS.
+## Session4 : Panthère webdesign Lyon
 <p align="center">
   <img src="https://user.oc-static.com/upload/2022/02/16/16450043954887_cover%20small.png">
 </p>
